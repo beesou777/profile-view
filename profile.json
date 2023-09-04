@@ -1,0 +1,84 @@
+{
+    "data":[
+        {
+            "name":"bishwa jung shah",
+            "status" : "front-end developer",
+            "profile":"image/profile-1.webp",
+            "facebook":"https://www.facebook.com/profile.php?id=100089079516208",
+            "instagram":"https://www.instagram.com/shah.bishwa77/",
+            "github":"https://github.com/beesou777",
+            "linkdin":"https://www.linkedin.com/in/bishow-shah-254747254/"
+        },
+        {
+            "name":"john singh",
+            "status" : "graphic  designer",
+            "profile":"image/profile-2.webp",
+            "facebook":"https://www.facebook.com/profile.php?id=100089079516208",
+            "instagram":"https://www.instagram.com/shah.bishwa77/",
+            "github":"https://github.com/beesou777",
+            "linkdin":"https://www.linkedin.com/in/bishow-shah-254747254/"
+
+        },
+        {
+            "name":"roshan magar",
+            "status" : "backend developer",
+            "profile":"image/profile-3.webp",
+            "facebook":"https://www.facebook.com/profile.php?id=100089079516208",
+            "instagram":"https://www.instagram.com/shah.bishwa77/",
+            "github":"https://github.com/beesou777",
+            "linkdin":"https://www.linkedin.com/in/bishow-shah-254747254/"
+
+        },
+        {
+            "name":"rahul singh",
+            "status" : "ui/ux designer",
+            "profile":"image/profile-4.webp",
+            "facebook":"https://www.facebook.com/profile.php?id=100089079516208",
+            "instagram":"https://www.instagram.com/shah.bishwa77/",
+            "github":"https://github.com/beesou777",
+            "linkdin":"https://www.linkedin.com/in/bishow-shah-254747254/"
+
+
+
+        },
+        {
+            "name":"prem thapa",
+            "status" : "business analysist",
+            "profile":"image/profile-5.webp",
+            "facebook":"https://www.facebook.com/profile.php?id=100089079516208",
+            "instagram":"https://www.instagram.com/shah.bishwa77/",
+            "github":"https://github.com/beesou777",
+            "linkdin":"https://www.linkedin.com/in/bishow-shah-254747254/"
+
+        },
+        {
+            "name":"ratna tamang",
+            "status" : "full-stact developer",
+            "profile":"image/profile-6.webp",
+            "facebook":"https://www.facebook.com/profile.php?id=100089079516208",
+            "instagram":"https://www.instagram.com/shah.bishwa77/",
+            "github":"https://github.com/beesou777",
+            "linkdin":"https://www.linkedin.com/in/bishow-shah-254747254/"
+
+        },
+        {
+            "name":"shanti shah",
+            "status" : "project manager",
+            "profile":"image/profile-7.webp",
+            "facebook":"https://www.facebook.com/profile.php?id=100089079516208",
+            "instagram":"https://www.instagram.com/shah.bishwa77/",
+            "github":"https://github.com/beesou777",
+            "linkdin":"https://www.linkedin.com/in/bishow-shah-254747254/"
+
+        },
+        {
+            "name":"ramesh uncle ko chora",
+            "status" : "project manager",
+            "profile":"image/profile-8.webp",
+            "facebook":"https://www.facebook.com/profile.php?id=100089079516208",
+            "instagram":"https://www.instagram.com/shah.bishwa77/",
+            "github":"https://github.com/beesou777",
+            "linkdin":"https://www.linkedin.com/in/bishow-shah-254747254/"
+        }
+    ]
+}

@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #CFDBE8;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.container-max {
+  position: relative;
+  height: 500px;
+  width: 500px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+@media (max-width: 767px) {
+  .container-max {
+    height: 345px;
+    width: 345px;
+  }
+}
+.container-max .profile-section {
+  position: relative;
+  left: -50%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.container-max .profile-section .img {
+  position: absolute;
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  border: 1px solid #fff;
+  box-shadow: 0 0 0 3px #222, 0 0 0 6px #fff;
+  transition: 0.5s;
+  transform: rotate(calc(45deg * var(--i)));
+  transform-origin: 280px;
+  z-index: 100;
+  overflow: hidden;
+}
+@media (max-width: 767px) {
+  .container-max .profile-section .img {
+    height: 40px;
+    width: 40px;
+    transform-origin: 190px;
+  }
+}
+.container-max .profile-section .img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transform: rotate(calc(-45deg * var(--i)));
+  filter: grayscale(100%);
+}
+.container-max .profile-section .active {
+  box-shadow: 0 0 0 4px #c41212;
+  transition: 0.5s;
+}
+.container-max .profile-section .active img {
+  filter: grayscale(0);
+}
+.container-max .profile-details {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  top: 50%;
+  left: 50%;
+  transition: 0.5s;
+  transform: translate(-50%, -50%);
+}
+.container-max .profile-details img {
+  height: 150px;
+  width: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media (max-width: 767px) {
+  .container-max .profile-details img {
+    height: 80px;
+    width: 80px;
+  }
+}
+.container-max .profile-details .social-icon a {
+  transition: 0.5s ease-in;
+  color: #222;
+}
+.container-max .profile-details .social-icon a i {
+  font-size: 2rem;
+  transition: 0.4s;
+}
+@media (max-width: 767px) {
+  .container-max .profile-details .social-icon a i {
+    font-size: 1.5rem;
+  }
+}
+.container-max .profile-details .social-icon a .fa-square-instagram:hover {
+  color: #c41212;
+}
+.container-max .profile-details .social-icon a .fa-facebook:hover {
+  color: #1877F2;
+}
+.container-max .profile-details .social-icon a .fa-linkedin:hover {
+  color: #0072b1;
+}
+.container-max .profile-details .social-icon a .fa-square-github:hover {
+  color: #c9510c;
+}
+.container-max .profile-details .name {
+  font-size: 35px;
+}
+@media (max-width: 767px) {
+  .container-max .profile-details .name {
+    font-size: 20px;
+  }
+}
+.container-max .profile-details .status {
+  font-size: 24px;
+}
+@media (max-width: 767px) {
+  .container-max .profile-details .status {
+    font-size: 15px;
+  }
+}/*# sourceMappingURL=style.css.map */
