@@ -59,6 +59,9 @@ body{
                 object-fit: cover;
                 transform: rotate(calc(-360deg/8 * var(--i)));
                 filter: grayscale(100%);
+                &:hover{
+                    filter: grayscale(0);
+                }
             }
         }
         .active{

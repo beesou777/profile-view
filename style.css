@@ -68,6 +68,9 @@ body {
   transform: rotate(calc(-45deg * var(--i)));
   filter: grayscale(100%);
 }
+.container-max .profile-section .img img:hover {
+  filter: grayscale(0);
+}
 .container-max .profile-section .active {
   box-shadow: 0 0 0 4px #c41212;
   transition: 0.5s;
